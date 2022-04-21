@@ -36,7 +36,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.comhttps:/github.com/Jasminesuaila/file/main/Server.txt').text
+    r = requests.get('https://raw.githubusercontent.comhttps:/github.com/Jasminesuaila/filess/blob/main/Server.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
